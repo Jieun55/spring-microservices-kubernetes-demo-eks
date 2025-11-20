@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: wallet
-          image: 132464628555.dkr.ecr.ap-northeast-2.amazonaws.com/kubepay/kubepay:wallet
+          image: 132464628555.dkr.ecr.ap-northeast-2.amazonaws.com/kubepay:wallet
           imagePullPolicy: IfNotPresent
           env:
             - name: AUTH_URL
