@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: user
-          image: uwaaang/user:1
+          image: 132464628555.dkr.ecr.ap-northeast-2.amazonaws.com/kubepay/kubepay:user
           imagePullPolicy: IfNotPresent
           env:
             - name: AUTH_URL
